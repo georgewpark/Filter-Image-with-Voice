@@ -1,0 +1,65 @@
+:root {
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    color: #fff;
+    background-color: #222;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+    padding: 0.7em;
+}
+
+main {
+    flex: 1 0 25em;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+    padding: 0 2em;
+}
+
+.filter-list-item {
+    font-size: 2em;
+    color: #eee;
+    padding: 1.2em 1em;
+    transition: color 400ms;
+}
+
+.filter-image {
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=1920&h=1080&fit=crop&crop=bottom) no-repeat center;
+    background-size: cover;
+    box-shadow: 0 0.2em 0.4em rgba(0, 0, 0, 0.3) inset,
+                0 -0.2em 0.4em rgba(0, 0, 0, 0.3) inset;
+}
+
+.filter-list-item.current,
+.heard-output {
+    color: #ffd700;
+}
+
+footer {
+    font-size: 2.4em;
+    padding: 0.9em;
+}
