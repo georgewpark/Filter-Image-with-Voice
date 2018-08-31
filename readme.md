@@ -5,3 +5,6 @@ This project demonstrates how the JavaScript speech recognition API can be used 
 
 ## Live Demo
 A live demo is available on [CodePen](https://codepen.io/GeorgePark/full/mKgENQ/).
+
+## License
+This project is licensed under the MIT License - see the [license.md](license.md) file for details.
