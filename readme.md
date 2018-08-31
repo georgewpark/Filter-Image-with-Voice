@@ -1,7 +1,7 @@
 # Filter Image with Voice
 This project demonstrates how the JavaScript speech recognition API can be used to take a spoken filter from a user and apply that filter to an image.
 
-![Filter Image with Voice Demo](https://github.com/georgewpark/Filter-Image-with-Voice/blob/master/demo-gif.gif "Filter Image with Voice Demo")
+![Filter Image with Voice Demo](demo-gif.gif "Filter Image with Voice Demo")
 
 ## Live Demo
 A live demo is available on [CodePen](https://codepen.io/GeorgePark/full/mKgENQ/).
